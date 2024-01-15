@@ -10,6 +10,6 @@ if (empty($_SESSION["user_id"])) {
 session_destroy();
 
 // Redirect the user to the login page
-header("Location: index.php");
+header("Location: host-signin.php");
 exit();
 ?>
