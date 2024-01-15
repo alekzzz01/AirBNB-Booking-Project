@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
+
+
+
+.main-section-booking {
+    position: relative;
+    border: none;
+   
+}
+
+.main-section-booking img {
+    object-fit: cover;
+    opacity: 0.7;
+
+  
+
+  
+}
+
+
+.main-section-booking p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-shadow: 1px 1px 2px black;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    font-weight: var(--fw-semibold);
+}
+nav {
+  max-width: var(--max-width);
+ 
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link a {
+  font-weight: 500;
+  color: var(--text-light);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: var(--primary-color);
+}
